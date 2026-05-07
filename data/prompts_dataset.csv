@@ -1,0 +1,189 @@
+prompt,complexity
+What is 2+2?,simple
+What is the capital of France?,simple
+What does CPU stand for?,simple
+"How do you spell ""necessary""?",simple
+What color is the sky?,simple
+What year was the Eiffel Tower built?,simple
+Who wrote Romeo and Juliet?,simple
+What is the boiling point of water?,simple
+How many days are in a week?,simple
+What is H2O?,simple
+"Translate ""hello"" to Spanish",simple
+What is the largest planet?,simple
+How many continents are there?,simple
+What is the speed of light?,simple
+What does HTML stand for?,simple
+Who was the first US president?,simple
+What is 15% of 200?,simple
+What language does Python use?,simple
+What does FAQ mean?,simple
+What is a byte?,simple
+Convert 100 Fahrenheit to Celsius,simple
+What is the square root of 144?,simple
+Who invented the telephone?,simple
+What is the currency of Japan?,simple
+How many hours in a day?,simple
+"What is the plural of ""mouse""?",simple
+"Define the word ""ephemeral""",simple
+What is the atomic number of oxygen?,simple
+What does DNS stand for?,simple
+List the primary colors,simple
+What is 7 times 8?,simple
+What is the chemical symbol for gold?,simple
+What timezone is New York in?,simple
+What is RAM in computing?,simple
+What does API stand for?,simple
+Who painted the Mona Lisa?,simple
+What is the national animal of Australia?,simple
+How many letters are in the alphabet?,simple
+What does RGB stand for?,simple
+What is the formula for area of a circle?,simple
+What is a haiku?,simple
+Name three vowels in English,simple
+What is the Internet?,simple
+"Define ""algorithm""",simple
+What is 1000 divided by 8?,simple
+Who is the author of Harry Potter?,simple
+What does USB stand for?,simple
+What is photosynthesis in one sentence?,simple
+What year did World War 2 end?,simple
+What is the Pythagorean theorem?,simple
+Explain what a database is in simple terms,medium
+Write a Python function to reverse a string,medium
+What are the main differences between SQL and NoSQL?,medium
+Explain how TCP/IP works,medium
+Write a regex to validate an email address,medium
+Summarize the causes of World War 1,medium
+How does garbage collection work in Python?,medium
+What is the difference between REST and GraphQL?,medium
+Explain what Docker is and why it's used,medium
+Write a function to find duplicates in a list,medium
+What are SOLID principles in software design?,medium
+Explain recursion with an example,medium
+How does HTTPS differ from HTTP?,medium
+What is a microservices architecture?,medium
+Write a SQL query to find top 5 customers by revenue,medium
+Explain the CAP theorem in distributed systems,medium
+How does JWT authentication work?,medium
+What are the differences between Python 2 and Python 3?,medium
+Describe the MVC design pattern,medium
+Write a bash script to monitor CPU usage,medium
+Explain how React's virtual DOM works,medium
+What is the difference between a process and a thread?,medium
+Explain Big O notation with examples,medium
+How does binary search work?,medium
+Write a function to implement a stack using two queues,medium
+What is a context manager in Python?,medium
+Explain what WebSockets are and when to use them,medium
+How does CSS specificity work?,medium
+What is dependency injection?,medium
+Explain the publisher-subscriber design pattern,medium
+How do promises work in JavaScript?,medium
+What is memoization and why is it useful?,medium
+Write a Python class for a linked list,medium
+Explain what Kubernetes does,medium
+How does Redis work as a cache?,medium
+What is a hash table and how does it handle collisions?,medium
+Explain the difference between supervised and unsupervised learning,medium
+Write a function to detect if a string is a palindrome,medium
+What is a closure in programming?,medium
+How does OAuth 2.0 work?,medium
+Explain event-driven architecture,medium
+What is the difference between TCP and UDP?,medium
+How does a relational database index work?,medium
+Write a Python decorator for retry logic,medium
+Explain what CORS is and why it matters,medium
+How does consistent hashing work?,medium
+What is the difference between synchronous and asynchronous code?,medium
+"Explain map, filter, and reduce with examples",medium
+How does Git branching work?,medium
+What are database transactions and ACID properties?,medium
+Explain what a load balancer does,medium
+How does the event loop work in Node.js?,medium
+Write a function to merge two sorted arrays,medium
+Explain the difference between stack and heap memory,medium
+What is infrastructure as code?,medium
+How does content delivery network (CDN) work?,medium
+Write a Python script to parse a CSV file,medium
+What are the trade-offs of a monolith vs microservices?,medium
+Explain what a deadlock is and how to prevent it,medium
+How does SSL/TLS handshake work?,medium
+What is the difference between authentication and authorization?,medium
+Explain what Apache Kafka is,medium
+How does connection pooling work?,medium
+Write a function to implement LRU cache,medium
+What is the difference between interface and abstract class?,medium
+Explain how neural networks learn,medium
+What are the main sorting algorithms and their complexities?,medium
+How does public key cryptography work?,medium
+Explain polymorphism in OOP,medium
+What is eventual consistency in distributed systems?,medium
+Write a SQL schema for a social media app,medium
+How does Git rebase differ from merge?,medium
+What is observability in software systems?,medium
+Explain the difference between compiled and interpreted languages,medium
+How does a B-tree index work in databases?,medium
+Write a function to flatten a nested list,medium
+What is the actor model in concurrent programming?,medium
+Explain circuit breakers in microservices,medium
+How does service mesh work?,medium
+What are design patterns and name five common ones?,medium
+Explain rate limiting strategies,medium
+How does column-oriented storage differ from row-oriented?,medium
+Write an algorithm for topological sort,medium
+What is the difference between REST and RPC?,medium
+Explain zero-downtime deployment strategies,medium
+Design a system to count unique page views at scale for a website with 10M daily users,complex
+Build a distributed rate limiter that works across multiple servers with Redis,complex
+Analyze the trade-offs between different database sharding strategies for a global e-commerce platform,complex
+Design an event sourcing architecture for a banking system with strict auditability requirements,complex
+Implement a real-time collaborative document editing system like Google Docs,complex
+Explain the architecture of a recommendation engine for a streaming service with 100M users,complex
+Design a fault-tolerant message queue that guarantees exactly-once delivery,complex
+How would you migrate a monolithic application to microservices with zero downtime?,complex
+Design a multi-tenant SaaS platform with data isolation and custom domain support,complex
+Build a machine learning pipeline for detecting fraudulent transactions in real time,complex
+Implement a distributed consensus algorithm from scratch (Raft or Paxos),complex
+Design a global search system that indexes billions of documents,complex
+How would you architect a system to handle 1M concurrent WebSocket connections?,complex
+Build a geo-distributed caching system with cache invalidation and consistency guarantees,complex
+Design a CQRS and event sourcing system for an inventory management platform,complex
+Implement an ML feature store with online and offline serving capabilities,complex
+Design a chaos engineering platform to test system resilience,complex
+How would you build a real-time bidding system for programmatic advertising?,complex
+Design a distributed tracing system for a microservices architecture with 200 services,complex
+Implement a multi-level cache hierarchy for a social media newsfeed,complex
+Analyze the architectural implications of moving from REST to GraphQL at Netflix scale,complex
+Design a data pipeline for processing 100TB of logs daily with sub-minute latency,complex
+Build a recommendation system using collaborative filtering and matrix factorization,complex
+Design a global identity and access management system for an enterprise with SSO,complex
+How would you implement a conflict-free replicated data type (CRDT) for a distributed counter?,complex
+Design a platform for A/B testing at a company running 1000 simultaneous experiments,complex
+Implement a real-time anomaly detection system for infrastructure monitoring,complex
+Design an intelligent routing system that adapts to network conditions and cost constraints,complex
+Build a zero-knowledge proof system for anonymous credential verification,complex
+How would you design a payment processing system compliant with PCI-DSS for global transactions?,complex
+Design a vector database for semantic search with billion-scale embeddings,complex
+Implement a temporal database that tracks all historical states of records,complex
+How would you architect an LLM inference system optimized for cost and latency at scale?,complex
+Design a multi-region active-active database architecture with conflict resolution,complex
+Build a continuous deployment pipeline with automated rollback and canary releases,complex
+How would you implement a distributed lock manager for a cloud-native environment?,complex
+Design a content moderation system combining rule-based and ML approaches,complex
+Implement a streaming data platform with exactly-once semantics using Flink or Kafka Streams,complex
+Design a knowledge graph for an enterprise with schema flexibility and query optimization,complex
+How would you build a self-healing infrastructure system with automated remediation?,complex
+Design a hyperparameter optimization framework for distributed model training,complex
+"Implement a real-time collaborative whiteboard supporting 10,000 concurrent users",complex
+How would you design a multi-cloud orchestration layer abstracting different cloud providers?,complex
+Design a serverless computing platform with cold start optimization,complex
+Build a privacy-preserving analytics system using differential privacy techniques,complex
+How would you architect a global notification system with delivery guarantees and preferences?,complex
+Design an intelligent query planner for a federated query engine across heterogeneous databases,complex
+Implement a distributed workflow engine with DAG execution and fault tolerance,complex
+Design a real-time personalization engine for a news platform with 50M daily users,complex
+How would you build a semantic code search system across millions of repositories?,complex
+Design an adaptive sampling system for distributed tracing to control data volume while preserving insights,complex
+Write a comprehensive analysis of how transformer attention mechanisms compare to RNNs for long sequences,complex
+Design a complete data lakehouse architecture with medallion layers for a Fortune 500 company,complex

@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.db
+data/autopilot.db
+data/autopilot.log
+data/load_test_results.csv
+.env
+.DS_Store
+Thumbs.db
+*.egg-info/
+dist/
+build/
+.pytest_cache/

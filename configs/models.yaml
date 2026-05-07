@@ -1,0 +1,36 @@
+models:
+  phi3:
+    name: "phi3"
+    tier: "simple"
+    cost_per_token: 0.0
+    max_tokens: 2048
+    context_window: 4096
+    description: "Fast, lightweight model for simple tasks"
+    ollama_model: "phi3"
+
+  mistral:
+    name: "mistral"
+    tier: "medium"
+    cost_per_token: 0.0
+    max_tokens: 4096
+    context_window: 8192
+    description: "Balanced model for medium complexity tasks"
+    ollama_model: "mistral"
+
+  llama3:
+    name: "llama3"
+    tier: "complex"
+    cost_per_token: 0.0
+    max_tokens: 8192
+    context_window: 8192
+    description: "Powerful model for complex reasoning tasks"
+    ollama_model: "llama3"
+
+ollama:
+  base_url: "http://localhost:11434"
+  timeout: 120
+  retry_attempts: 3
+  retry_delay: 2
+
+baseline_model: "llama3"
+baseline_cost_per_1k_tokens: 0.002  # GPT-4 equivalent for savings calculation
