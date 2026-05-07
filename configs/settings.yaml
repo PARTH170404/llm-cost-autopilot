@@ -1,0 +1,37 @@
+app:
+  name: "LLM Cost Autopilot"
+  version: "1.0.0"
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+  log_level: "INFO"
+
+database:
+  path: "data/autopilot.db"
+  echo: false
+
+classifier:
+  model_path: "data/classifier.pkl"
+  vectorizer_path: "data/vectorizer.pkl"
+  min_accuracy: 0.80
+  feature_version: "v1"
+
+evaluator:
+  min_quality_score: 0.6
+  escalation_threshold: 0.5
+  async_eval: true
+
+routing:
+  fallback_model: "llama3"
+  enable_escalation: true
+  max_escalation_attempts: 2
+
+dashboard:
+  host: "0.0.0.0"
+  port: 8501
+  refresh_interval: 30
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
+  file: "data/autopilot.log"
