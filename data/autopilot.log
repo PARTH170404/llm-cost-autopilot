@@ -1,0 +1,29 @@
+2026-05-07 06:08:03,575 | __main__ | INFO | Loading dataset...
+2026-05-07 06:08:03,577 | __main__ | INFO | Loaded 188 samples: {np.str_('000 concurrent users'): np.int64(1), np.str_('complex'): np.int64(52), np.str_('filter'): np.int64(1), np.str_('medium'): np.int64(84), np.str_('simple'): np.int64(50)}
+2026-05-07 06:08:03,578 | __main__ | INFO | Classes: ['000 concurrent users' 'complex' 'filter' 'medium' 'simple']
+2026-05-07 06:08:03,585 | __main__ | INFO | Feature matrix shape: (188, 15)
+2026-05-07 06:08:17,057 | __main__ | INFO | Loading dataset...
+2026-05-07 06:08:17,059 | __main__ | INFO | Loaded 188 samples: {np.str_('complex'): np.int64(53), np.str_('medium'): np.int64(85), np.str_('simple'): np.int64(50)}
+2026-05-07 06:08:17,060 | __main__ | INFO | Classes: ['complex' 'medium' 'simple']
+2026-05-07 06:08:17,067 | __main__ | INFO | Feature matrix shape: (188, 15)
+2026-05-07 06:08:19,500 | __main__ | INFO | GradientBoosting: CV accuracy = 0.907 Â± 0.061
+2026-05-07 06:08:20,331 | __main__ | INFO | RandomForest: CV accuracy = 0.940 Â± 0.049
+2026-05-07 06:08:20,362 | __main__ | INFO | LogisticRegression: CV accuracy = 0.853 Â± 0.100
+2026-05-07 06:08:20,362 | __main__ | INFO | 
+Best model: RandomForest (CV: 0.940)
+2026-05-07 06:08:20,543 | __main__ | INFO | Model saved to data/classifier.pkl
+2026-05-07 06:08:20,543 | __main__ | INFO | Label encoder saved to data/label_encoder.pkl
+2026-05-07 13:24:59,436 | __main__ | INFO | Loading dataset...
+2026-05-07 13:24:59,462 | __main__ | INFO | Loaded 188 samples: {np.str_('complex'): np.int64(53), np.str_('medium'): np.int64(85), np.str_('simple'): np.int64(50)}
+2026-05-07 13:24:59,464 | __main__ | INFO | Classes: ['complex' 'medium' 'simple']
+2026-05-07 13:24:59,475 | __main__ | INFO | Feature matrix shape: (188, 15)
+2026-05-07 13:25:01,695 | __main__ | INFO | GradientBoosting: CV accuracy = 0.907 ± 0.061
+2026-05-07 13:25:02,443 | __main__ | INFO | RandomForest: CV accuracy = 0.940 ± 0.049
+2026-05-07 13:25:02,532 | __main__ | INFO | LogisticRegression: CV accuracy = 0.853 ± 0.100
+2026-05-07 13:25:02,533 | __main__ | INFO | 
+Best model: RandomForest (CV: 0.940)
+2026-05-07 13:25:02,693 | __main__ | INFO | Model saved to data/classifier.pkl
+2026-05-07 13:25:02,693 | __main__ | INFO | Label encoder saved to data/label_encoder.pkl
+2026-05-07 16:47:19,194 | app.classifier.complexity_classifier | INFO | Classifier loaded from data/classifier.pkl
+2026-05-07 16:47:19,197 | app.db.database | INFO | Database ready at data/autopilot.db
+2026-05-07 16:47:32,347 | httpx | INFO | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
