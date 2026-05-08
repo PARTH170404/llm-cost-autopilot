@@ -33,9 +33,9 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 # Model mapping: tier → Groq model name
 TIER_MODEL_MAP = {
-    "simple":  {"groq": "gemma2-9b-it",       "display": "Gemma 2 9B",   "cost_per_1k": 0.0},
-    "medium":  {"groq": "mistral-saba-24b",    "display": "Mistral 24B",  "cost_per_1k": 0.0},
-    "complex": {"groq": "llama-3.3-70b-versatile", "display": "Llama 3.3 70B", "cost_per_1k": 0.0},
+    "simple":  {"groq": "llama-3.1-8b-instant",       "display": "Llama 3.1 8B",   "cost_per_1k": 0.0},
+    "medium":  {"groq": "llama-3.1-70b-versatile",    "display": "Llama 3.1 70B",  "cost_per_1k": 0.0},
+    "complex": {"groq": "llama-3.3-70b-versatile",    "display": "Llama 3.3 70B",  "cost_per_1k": 0.0},
 }
 BASELINE_COST_PER_1K = 0.002  # GPT-4 equivalent
 
